@@ -1,0 +1,27 @@
+.subject {
+    margin-bottom: 20px;
+    background-color: beige;
+}
+
+.checkbox-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox-item {
+    flex-basis: 4%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left:500px;
+
+}
+
+#title{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #eeebeb
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task Completion Tracker</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <h1 id="title" >Task Completion Tracker</h1>
+
+<div id="subjects">
+    <div class="subject">
+        <h2>SUBJECTS</h2>
+        <div class="checkbox-row" id="pythonCheckboxes">
+            <!-- Python tasks checkboxes will be generated here -->
+        </div>
+    </div>
+    <!-- Add similar sections for other subjects -->
+</div>
+
+<button onclick="calculateCompletion()">Calculate</button>
+
+<div>
+    <p>Total Tasks Completed: <span id="totalCompleted">0</span></p>
+    <p>Total Tasks: 300</p>
+    <p>Percentage Completion: <span id="percentageCompletion">0%</span></p>
+</div>
+
+
+<canvas id="completionChart" width="300" height="300"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+</html>
